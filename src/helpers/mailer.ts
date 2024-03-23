@@ -35,6 +35,8 @@ export const sendEmail = async ({ email, emailType, userId }: any) => {
             </p>`
         }
 
+        console.log("The domain is ", process.env.DOMAIN);
+
         const mailresponse = await transport.sendMail
             (mailOptions);
         return mailresponse;
