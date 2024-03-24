@@ -79,6 +79,7 @@ export default function LoginPage() {
         {buttonDisabled ? "No Login" : "Login Here"}
       </button>
       <Link href="/signup">Visit signup page</Link>
+      <Link href='/forgotpassword'>Forgot Password</Link>
     </div>
   );
 }
